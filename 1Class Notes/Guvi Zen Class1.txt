@@ -1,0 +1,175 @@
+5-5.5 months approx;
+Around 37-38 participants;
+
+Will bring Google, Micr, and Amazon to talkk in sessions;
+
+Mentors feedback given as well;
+
+95 perc attendance needed; Mail for the leave;
+Complete atleast 416 problems of CodeKata;
+
+Mck Interview and Assignments will be given;
+
+Saturdays task to be submitted on Sunday's Class;
+And Sunday's on wednesday;
+
+every third week mock interview will happen;
+
+GUvi 
+
+Sys Design and Architecture needs to be taken care of;
+if pay is more than 8 lacs around;
+
+
+Micro Arc: for self Assesment;
+
+Project Board:
+
+Companies will be looking at Github profile;
+
+CodeKata Submissions will be there:
+Guvi's Programming Profile will be given;
+
+Projects and Codekata Submission will also be given;
+
+The rank is based only on no of Codekata Probems solved by the student;
+
+Solving of Codekata Problems is the most priority;
+
+Jobs for outside people;
+
+Arun Prakash:
+Be on Time;
+
+https://github.com/reach2arunprakash
+https://github.com/reach2arunprakash/javascript-101
+
+Data Structures Guy;
+https://github.com/reach2arunprakash/Data-Structures
+
+Architecture:
+https://github.com/reach2arunprakash/system-design-primer
+http://infolab.stanford.edu/~backrub/google.html
+
+Will be given last weeeks recording of DS one can start with DS Questions right away;
+
+Another Repo you can lookup:
+Tech Iterview Questions;
+Google Interview Questions;
+
+JS 101;
+DS;
+FrontEnd; //Including Google Questions;
+These have INtermediate Algorthm as well;
+
+Starting with JS 101: BAsic(ES6, promise, callback promise) 
+and Advanced
+HTML-CSS-RWD-Bootstrap-DOM Manipulation-Hackathon
+React-NOde-MongoDB, PostGres- 
+DS-SysDesign- AWS- Project - Mock;
+
+
+Asses after DS; 4-5 practice assesment;
+
+Arun's Note:
+JS 
+Python
+C++ or Java
+
+MERN
+-----
+JS - Basic - ES5 & Es6
+JS - Adv -  Promise 
+HTML - CSS - RWD - Bootstap 
+DOM manipulation
+hackathon 
+React & Redux
+Node(Express) - Mongo & Postgress
+Hack 
+DSA
+Assesmets - 4 - 5 pract 
+Python & Flask
+Sys Design
+AWS
+Project
+Mock
+
+JS Basics:
+Reach out to mentor will be having 10-15 people;
+JS 101 for the prsentation in upcoming week;
+
+Pirates of Silicon Valley;//Watch;
+
+Sun MIcro and Netscape said so;
+Can run on any system;
+Written browser;
+around 1994-96;
+
+Bill killed NetScape; by creating Internet Explorer;
+
+Browser Wars //Watch on Youtube;
+
+Bill Gates CReated Jscript: is dead;
+Java is almost Dead;
+
+For android Java was primary language;
+
+Sun acquired by Oracle and was said Java being used in Android;
+
+Kotlin being used in Android now;
+
+J2EE has only spring and Spring Boot taking Java Ahead;
+Bootstrap is grandfather;
+
+Would you say Python and JS will thrive forever, sir?
+Till you get a cure;
+
+WebAssembly: browsers have slowly sarted supporting them;
+To support C++ as well;
+
+Hey,
+So FB and Google: are making frameworks of Javascript;
+
+
+System Design will decide which framework to use;
+
+HTML is like bone;
+
+CSS is skin and Muscles;
+
+JavaScript is like Life: MAkes the website Dynamic;
+Makes INteractive;
+Can be created in FE and Backend;
+
+DOM is like representing an object: every aprt of the page;
+Is inmemory representation of HTML DOC;
+What benefit do we get from Tree:
+Tracing becomes easy, and Accessing as well;
+
+Parsing of the HTML document gets easier;
+
+Tree Structure:
+To get the output at end: n iteration;
+gets faster with tree structure;
+
+Representation gets easy in HTML that way:
+B tree and B+ Tree;
+
+Watch Browser Wars;
+and Pirates of Silicon Valley;
+
+The war of Coding Languages:
+Is like religion,
+Depends on the Ruler whio is trting to implement it in the IT Industry;
+
+
+
+
+
+
+
+
+
+ 
+
+

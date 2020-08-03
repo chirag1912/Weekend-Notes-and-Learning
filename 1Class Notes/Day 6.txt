@@ -1,0 +1,202 @@
+Day 6:(02.08.2020)
+
+Iterators:
+for in : will give index;	//ES5
+and properties as well;
+
+for of : will only give the array values;	//NEW in ES6;
+NOt giving properties;
+
+
+
+forEach is functionla approach method is method of array;	//ES6;
+//will not work when not an array;
+
+Functional Prog; Multicore prog;
+
+O/P will be same for all:
+i - any -highly;
+for Each -
+for in and for of;
+
+
+Functions in JS:
+function f(a,b,c){
+console.log(a);
+console.log(b);
+console.log(c);
+}
+
+f(10);
+f(1,20,30,40);
+
+JS doesnt care about the number of parameters that are getting passed;
+
+Method Overload:
+Same name different Parameters;
+So, if same name functions declared and the calling parameters diff that is overlaoding;
+Types are: Data Type: float changin with int and double;
+	Num argument-- Not available;
+
+
+This feature not available in JavaScript; as fills unknown parameters with undefined value;
+
+
+
+function f()	//space f is the name of function;
+
+var fun= function(a,b,c){	//No space after function and name; so is ananymous;
+	console.log(a);
+}
+
+Hey, anonymous function:
+has to be called using:
+fun();	//anonymous function;
+
+Hey, so in 
+XMLHTTP;
+onload= function(){
+}
+
+IIFE is used with brackets;
+is used and thrown away;
+
+var s;
+s(10,20,30);		//output will be error: s is not a function as var s is decalred, the function defination or value wont be hoisted;
+var s=function(a,b,c){
+console.log(a);
+}
+
+
+So the execution part starts;
+
+Also,
+function second(a,b) {
+	var opr1 = 10;
+	var opr2 = 90;
+	// body...
+}
+
+arr = [add,sub,mul];
+second(1,arr);  // 100
+second(2,arr);  // -80
+second(3,arr);  // 900
+add(a,d)
+{
+
+}
+sub(a,d)
+{
+	
+}
+mul(a,d)
+{
+	
+}	//Fill the missing places;
+
+
+Hey, 
+Map reduce and Filter;
+Arrow Functions useful:
+
+Filter method Use:
+a = [10,20,300,400,499,70];
+
+function f(a)
+{
+	var b=[];
+	for (var i = 0; i < a.length ; i++) {
+		if(a[i]<100)
+		{
+			b.push(a[i])
+		}
+
+}
+	return b;
+}
+
+function f1(item)
+{
+   return item<100;
+}
+
+c = f(a)
+console.log(c);
+
+ss = a.filter(f1)
+console.log(ss);
+
+
+Hey see which parameters are passed in for the, 
+
+
+Map, Reduce and Filter;
+
+reduce(currentTotal, items){
+
+},0;
+
+Hey, using Map can convert string to Num;
+
+1. Callback task - Task for callback ( in Slide )
+2. Anyo & IIFE - Do the below programs in anonymous function & IIFE ( in Slide)
+
+
+Rest countries:
+
+Get the countries in asia - filter 
+Get the countries with population less than 2L - fliter
+Bumpup the current population  of all the counteirs by 1L - Map 
+convert all the names in capital - map
+print follwoig details  name , capital , flag  - foreach,filter
+
+Print the total population of the countries  - reduce
+Print the total population of the countries in asia - filter & reduce
+
+
+Pick 6 things show code and give example with code to interviewer;
+
+the one shown in the ppt;
+
+Warm up programming:
+https://medium.com/@reach2arunprakash/guvi-zen-class-javascript-warm-up-programming-problems-15973c74b87f
+
+
+Why Objects are pass by Ref?
+so by copying the objects all, it will take time, so not paste all this stuff;
+
+specially for objects;
+
+Using spread operaor slows the stuff;
+
+JS is object Based language not obj oriened language;
+
+Abstraction: Complexities hidden;
+Functions, Arrays: Complexity Hidden how the Map is used for indexing of the eleemnst of the Array;
+
+Maps, and Hash;
+
+Encapsulation: Array eg, data and Methods encapsulated; 
+
+No data protection: all is public;
+
+Inheritance;
+
+Idly is the object;
+Pane is the class;
+
+Hey objects can be created in JS why need classes then?
+
+So, this is has function/ prototype based object creation;
+
+
+
+
+
+
+
+
+
+
+
+

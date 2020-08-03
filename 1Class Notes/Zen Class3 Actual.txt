@@ -1,0 +1,467 @@
+UDP: Fire and forget;
+TCP/IP: is a physical hanshake and line is established;
+
+DOM is HTML representation;
+
+Username and Password has to be in HTTPS;
+
+Rest API's:
+https://restcountries.eu/rest/v2/all
+
+This API gives me JSON in a beautiful format;
+
+So, how to do this JSON Object:
+So, it is: JavaScript Object Notation;
+
+Is the JSON;
+
+
+//Hey MOst haven't submitted their assignments;
+
+Ask your mentors for the points you have from the Guvi Mentor;
+
+Browser and Rendering Engine is same they say;
+as single component;
+Browser Creates DOM Tree;
+Rendering paints DOM tree to the browser;
+
+Entrire thing is called Layout Thing;
+
+HYML_DOM_then Rendering GUy;
+
+How TCP handles how many times we want to download?
+There is Buffer for each server they can Answer only those many TCP Requests;
+
+Then Queue- which also has a Limit as well;
+
+Ok, so opening Network in Guvi Site:
+AnyRequest-> there is waiting time involved;
+
+So, any icon will has waiting time, according to the browser rendering engine when it paints;
+Any request there will be a waiting and requesting flow;
+
+Layered and Rendering Engine are the same.
+
+ISP: how they fetch the IP address and how they lookup in Cache?
+
+PostMan Slide:
+Default Value of Browser is GET;
+
+API: is something which gives some data;
+
+So, API.countries is an array of JSON;
+//will be working on this data from now on;
+
+1. We will get the data and parse it.
+2. Will use Postman to get and POst this data;
+3. Will Use JSON Server with default data;
+4. Will host this in Heroku;
+5. Will do AJAX;
+6. HTML CLasses; we get and display the data;
+
+
+Response Header in JS Page need to Understand:
+Allow Access Control Origin //See what is this?
+Maybe allow in this countreis only/-
+Like CORS stuff;
+
+Get the raw data and do in JS File;
+
+Any JS Code will only be available in the Console of the Browser not on the main page of the website;
+
+In this API the Method header is Get;
+ So we are getting this info in COnsole of the brwoser;
+(which is default of the browser); 
+
+Only way to Postthe method in the browser is by writing code;
+
+and pushing it;
+
+Is a substitute for the browser all the Array entries come;
+
+POST will be used; after
+
+YOu can send Key, Value pair and send as well by POsting;
+
+Can be used in API testig by sending data to the API and chceking what is returned;		//BACKEND DEVELOPERS
+
+
+CURL alternative; REST Client Extension also there;
+
+//FRONTEND DEVELOPERS:
+JSON server
+DUMMY SERVER //NOT ACTUAL SERVER;
+
+TO SEND AND GET DATA FROM DUMMY SERVER;
+UI TESTINNG IS DONE BY THIS;
+
+SEE THAT SERVER HAS TO BE RENDERED THEN IT COMES AS BACKEND SERVER TO THE UI DEVELOPER;
+
+DO: npm(NODE PACKAGE MANAGER) 
+
+JSON SERVER TO MANAGE A NODE PCKAGE MODULE;
+
+ANY MODULE WIL BE DONE WITH NPM(NOd PAck MOdeule)
+
+
+THIS IS ONE OF THE MODULE OF NODE>JS
+
+
+npm install -g json-server
+
+NOde comes with strict version ANY extra module: use NPM;
+
+Let us say 10 project all use JSON servers; so -g is global for all projects; 
+
+
+
+NODE IS PURE JS< SO PPL DID HELPER FILES
+
+NPMJS website to find all your node modules;
+
+json server is one of the module of node.js;
+
+So, once your helper file is published you can take it and use it.
+
+json server is one of the module;
+
+pip is here called NPM;
+
+json   
+
+After success in installation:
+localhost:3000/posts
+
+Server has to be in listen MOde;
+For locahosts to run;
+
+Close CMD after changing Env Variables.
+and then start again.
+
+I am getting warning of depreciation;
+
+URL:
+http://localhost:3000
+domain name and Port Number;
+to mention as using customized port;
+
+Wake up Server:
+json-server --watch db.json
+
++ s to create a database for the json server;
+
+db.json is in username folder chirag;
+
+Has only 3 things:
+Posts, Comments, Profile.
+
+We dont change the db data as is the dummy server only;
+
+
+What are the paths for JSON Server to be installed;
+//It probably goes where node.js wants to install that package as doing from command prompt;
+
+db.json is to be in same path as of Server(Json Server).
+
+Json server is aa module of Node Package Manager.
+Wat are other typeof Modules;
+
+
+
+//JSON server wont insatall in a proxy;
+
+dir used for direc in Windows;
+
+Even for NPM there is a path to be set;
+
+Ctrl+c to end the current Server;
+
+
+
+We have hosted the rest coutry data on our server of NPM -JSONSERVER;
+
+with db.json as database;
+
+In postman 
+
+In POST tag: we get an error, saying no ID field in our database;
+
+Create one then;
+
+
+Created a new property id: ss.id=i;
+
+Now, in CMD comes 150 more kines, if WRITTEN In file this will not come;
+
+const fs=require('fs');
+let lyrics="Hello YIFUYFYUF";
+
+fs.writeFile('abc.txt',lyrics,(err)=>{
+	if(err) throw err;
+	
+	console.log('Lyric saved!');
+});
+
+
+Add property;	//done;
+Node Module usage need to be done- using file system;	
+                     //tried printing abc.txt from abc.txt,lyrics;
+
+
+POST to be done from jsonserver- from postman
+
+Object creation JS file is called JSON;
+
+
+For the POstMan Server JSON Server must always be running;
+If we are hitting our URL in the POSTMAN;
+
+
+Creating Clone of Git Repo:
+Open Git Bashthe terminal.
+
+Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL you copied in Step 2.
+
+$ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
+
+
+Git says heroku not present;
+Also, JSon in File server see;
+
+
+Browser has: View SRc Debugger, Response View;
+Refresh to start Debugging in bpth Firefox and Chrome;
+
+Response view is where you ge to see how the page will look like in different devices;
+
+Is head body and HTML tag necessary in html??
+
+Why someone has to introduce Header tag really?
+Header, nav were intro in HTML% onwards;
+
+<a></a> is tag name;
+They have attributes to them;
+eg anchor tag has href property;
+
+Global: Class, ID, Hidden;
+Other: attributes  as well check with attribute which tags imoplement them.
+
+
+Href Links load one by one;
+Defer new attribute element in script tag:
+Go load Body and Head of HTML, I willl load the script of JS till then dont worry;
+
+Know atlaest 10-15 attributes;
+
+Use Absolute Path of the JS in Scri[t Tag only;
+Realtive starts: ./
+Absolute ./arun/script.js;
+
+. means current folder;
+
+div and section difference;
+
+Why header Tag in HTML?
+Diff div and section;
+
+heroku git:remote -a yourapp //for heroku to get connected from local to remote;
+
+
+Zen Class 4:
+PASS Post as a service;
+
+JS compares only the values,
+Other languages cannot compare string and numbers;
+
+Mostly in newer languages, they add on functionality to the language;
+
+D Type
+prim;
+Composite or rest: Object all rest;//null and undefined as well;
+
+Java, CPP: Map;
+Here JSON is Map;
+Function is also an object they say;	//they are first class objects;
+
+Can pass a func to a function;
+
+empty Room: null is an object;	//Do chceck against NUll in Java, CPP;
+
+Do check against undefined in JS:
+Vaccum Chamber : Undefined //not a value so not an object;
+
+Share the same sheet: is call by Reference;
+Share the same URL: is call by value;
+
+All the objects in JavaScript are going to be compulsary Copy by Refernce;
+
+Primitive TYpes memory less so will be copy by Value;
+
+BUg Bounty 500;
+Why are Objects copy by reference and Primitive are by COpy by Value;
+
+Using Spraed OPerator can pass by value in Arrays as well;
+
+Google Ads: Reads your cache from browwser there is JS program written by Google to read them;
+
+Local Cache/storage is where passwords are stored;
+
+
+
+Other sites cannot touch Loacal Storage of another Website;
+Loacal Storage VS Cookies?
+
+So, they also store cache in incognito;//Google people;
+
+Even before DOM  we have Window Object;
+
+JS when creating Array:
+It creates an Object internally;
+
+It creates void in Array;
+Creates undefined;
+in Void Spaces;
+
+Also, if passing string it becomes a part of the object as a property of object for that array;
+NO included in the actual length though;
+
+Object.keys(arr)	//Shows all the Object values incl arr properties;
+
+Object.keys(arr).length to get the actual object length;
+
+arr["15"]=999;
+15 string is converted to the index of the array and is not treated as a property;
+
+JS does internal conversion of this number;
+
+So, whenever you add (); that is when you arecalling the function body itself;
+
+arr[4]=fn;//fn stored
+arr[5]=fn()//fn calling arr[5]= undefined in this index;
+
+
+arr[4]();//to print the functions of the array;
+
+arr[4].fn()//see??
+
+console.log(a.ttt)
+Oject is not defined so what to print in console; so undefined;
+consle.log(a.ttt.tt); exception as there is no value of uundefined ttt property;
+
+
+if(a.ttt!=undefined){
+console.log(a.ttt);//then print;
+}
+
+
+try{
+consoole.log(a.ttt);
+console.log(a.ttt.tt);
+}
+catch(ee){
+	console.log(ee);
+}
+will give Typed Error and says a.ttt is undefined;
+
+Stops abruptly in uncaught exception;
+Stops and GIves error gracefully in the Caught Exception;
+
+
+API: 
+App1 Maps--DB of gooogle DataStore;
+
+App needs my data;
+you can do this by Code;
+
+Standard API:
+Given by Companies to be used;
+
+Can use their API to create this stuff; of PDF;
+
+By using Web API: rest Countries Data is what we are accessing by using API;
+
+Method to touch the API, using JS using XML method;
+
+AJAX: w/o reloading the entire page;
+
+
+
+Hey, When needed only Client will ask, dont send anything from Server side;
+
+load enter,
+button submit;
+
+Hey just give me element to refresh just the part of webpage;
+JS has timer to initiate req and then get the data and then it modifies the DOM and gives the data;
+
+No one used;
+
+Used only for JS popup only;
+
+Google used AJAX first time;
+WHen typung anything in search box you will get the data, w/o entering/submitting.
+
+XML not sent now, AJAX now.
+
+Update only that part of div only based on timing and typing;
+
+Synch: Ack =nowledge after sending everytime;
+Value is pretty good;
+
+Asynch: No wait for the person to acknowledge;
+Value is questionable;
+
+Coding World:
+Disk read; asynch with handler;
+Network; 
+ 
+Defer tag of JS is asynch with handler;
+
+AJAJ: really no XML;
+
+every req has true false for asynch and synch thing;
+
+JS: workout101: json101:
+1html; 1 JSON;
+
+Incl JSON in the HTML Page;
+
+So, req, url str,
+
+If false: Synchronous;
+AJAX: True;
+
+Also, with fetch doing;
+
+CORS:
+Cross Origin Resource Get:
+* all access;
+API KEY, only using Password;
+
+Replacing the Browser URL, with the API; will make it to be AJAX API;
+
+Read about CORS;
+
+Is API Provider Side COntrol;
+
+TAsk:
+OPen API;
+CORS;//See;
+AUthentication;
+
+worksheet check and PPT;
+
+Fetch URL is new;
+Request HTTP Stuff is old;
+
+CHcek PPT for chcecking;
+Questions;
+
+RSET and SOAP difference;
+
+
+
+
+ 

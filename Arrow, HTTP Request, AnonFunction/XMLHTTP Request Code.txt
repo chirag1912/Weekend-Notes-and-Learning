@@ -1,0 +1,50 @@
+var request = new XMLHttpRequest()
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET', 'https://dog.ceo/api/breeds/list/all', true)
+request.send();
+request.onload = function() {
+  // Begin accessing JSON data here
+var data = JSON.parse(this.response)
+console.log(data);
+}
+
+
+XMLHTTP request,
+Then comes is fetch;
+
+let xhr=new XMLHttpRequest();
+xhr.open(method,URL)
+
+Hey so if it is XMLHttpRequest:
+Then it has to be: Web Service API; and thus using HTTPto access it;
+
+4Types of Web Service API's which are used commonly:
+SOAP: a standard protocol used to exchange information and data in XML between two objects;
+
+JSON-RPC, which is the same protocol but in JSON format;
+
+XML-RPC, a protocol that calls a remote procedure and uses XML as the data format and HTTP calls as the communication system
+
+REST (Representational State Transfer), an software architecture for hypermedia systems in the World Wide Web;
+
+
+Business Process Automation (BPA) and Business Process Integration (BPI), business strategies that save on costs thanks to process automation and integration.
+
+To a large extent, the BPA and BPI strategies are based on programming and integrating applications, where APIs play an essential role. This gives rise to what is known as API Management, which affects business fields such as security, analytics, product and service developments, data, work flows, etc.
+
+
+
+request.open()
+request.send();
+request.onload=function(){
+
+var data=JSON.parse(this.response)
+console.log(data);
+}
+
+After calling the XMLHttpReques();
+open, onload, send;
+
+
+

@@ -1,0 +1,95 @@
+Guvi MainClass:
+9176054456 //for any doubt;
+
+Browser Engine: 2Components; 
+and Rendering Engine: Paints the DOM Tree
+
+If we download a file: how is req handled?
+At a given sec I can handle upto 10 request simultaneously;
+
+
+Protocol:
+Set of Rules;
+HTTP: Work at applcation Layer;
+works on transport layer;
+TCPIP, UDP are transport Layer;//courier boys;
+
+POstMan:
+API: is smthing which Gives some data
+https://restcountries.eu/rest/v2/all
+
+We will get the data from JSON Format;
+
+admin is for windows, for linux it is: sudo;
+
+
+Revision of Github Repositry:
+
+JS is isnpierd by Python:
+JS became more popular after NOde.js was taken outside;
+
+window object will not be available in the node.js as parent browser is not available;
+
+From browser cannot handle the database or file system of the pc;
+
+From NOde.js we have freedom to access files and connect with database;
+
+node sum.js; to run the sum.js file;
+node maxarr.js;
+
+interactive Mode of Node.js: is same as console line by line
+File: is like script tag;
+
+interactive mode in most of modern languages; mostly used for learning purpose;
+
+Can we use visual studio; forJavascript; 
+
+
+They will give points sheet for each week;
+
+Hey, so to create a repository and dir, we can create one using .md readme file then write something in it;
+
+how to commit to the github directly?
+Can do using gitclown;
+
+git add, commit, push;
+
+So, you can gitclown stuff of github reposit- with our local file;
+and then if reach to the path in cmd and type gitstatus, any changes in any of the file will be shown;
+
+git add "ppt/000 - Browser Internals=getting started.pptx"
+
+
+git status to know which file needs to be commited and has been just added as of yet;
+git commit -m "modified Browser pptx File"
+
+then do, git push;
+-m is a switch for adding a message using CMD;
+Untracked files are those which havent been added to our github repo;
+
+So, to give a complete path to cmd, use "" quotes that way any spaces in the folder name will be compensated;
+
+git add . will add all the files;
+git add *.js
+
+for every folder to get inside it use forward slash to get insdie it.
+
+also you can use it inside the quotes of the path;
+
+git status gives which files are commited and which are not;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

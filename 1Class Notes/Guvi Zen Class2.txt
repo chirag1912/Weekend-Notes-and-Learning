@@ -1,0 +1,139 @@
+Mosaic:
+
+HTML:DOM;
+Not used Much:
+CSS:SOM;
+
+Reason why slow:
+network,
+Contents lot; and 
+ANd Dom manipulating a lot;
+
+Web Browser: 
+INspector Lement: Inspector to delete ui elemnts;
+
+Console:
+Write JS program;
+
+There are inconsistency in diff browsers;
+
+Rendering Engine;
+JS Engine; are diff for browsers; v8;
+v8 is node; node.js is takin outside;
+
+window: gives guvi; in browser;
+
+Imperative: Programming with an explicit sequence of commands that update state.
+Declarative: Programming by specifying the result you want, not how to get it.
+Structured: Programming with clean, goto-free, nested control structures.
+Procedural: Imperative programming with procedure calls.
+Functional (Applicative): Programming with function calls that avoid any global state.
+Function-Level (Combinator): Programming with no variables at all.
+Object-Oriented: Programming by defining objects that send messages to each other. Objects have their own internal (encapsulated) state and public interfaces. Object orientation can be:
+Class-based: Objects get state and behavior based on membership in a class.
+Prototype-based: Objects get behavior from a prototype object.
+
+
+Is func + procedural and Object Oriented;
+
+tcp/ip, udp: are courier boys; 
+tcp: is connection oriented takes sign;//is costly;
+udp: is throws w/o sign;	//udp is fast;
+
+http/http(s): Can build swiggy, amazon;
+
+udp used in vid streaming, VoIP; can be in message;
+tcp used in online games, whatsapp mssgs-blue tick, and banking;
+
+IP becomes either TCP or User DataGram wrapping;
+
+MAC is attached to the hardware;
+IP is attached to the network where yu use the phone;
+
+Primary benefit of IP is routing and 
+Secondary: Hardware independent;
+
+To Catch It happens using IMEI number by using the phone number as well to trace buoth IMEI and Phone number matching;
+
+with ip address in internet;
+
+Port connects across the countries, 
+And rest is within the country inside the country itself;
+
+USB port and parallel ports are security;
+
+Keyboard is inside so part of itself;
+
+Port numbers are reserved: and are 2^16 bits numbers;
+for diff ports;
+80 reserved for HTTP;
+443 for HTTPS;
+
+Servers talk:
+which protocol to talk to:
+https(443),ip-address(Home Number), room: port Number, 
+who you are?: header Info given then opens the door;
+
+IP address is home address:
+IP address: 80 helps to concat all addresses;
+
+header info is common info;
+
+NOw most going to HTTP 2.0 from 1.1;
+
+HTTP Methods: 
+GET and Put used mostly difference;
+1.1 vs 2.0 HTTP;
+
+adds index.html and asks DNS Server
+If not found sorry;
+
+DNS sees cache if seen IP address of this name?
+Cache, Browser, OS, Router, ISP then DNS;
+
+Browser default method is get.
+
+Can use hosts file location;
+
+So they can stop the hosts address blocking them by going in the hosts folder of PC;
+The browser looks at the Hosts file to look for IP address first and then goes to DNS SErver if not found in Hosts folder;
+
+Return Code of HTTP: 
+
+404 is you screwed up;
+Not found the res or url asked is not found;
+
+501,2,3 is when website screws up;
+
+300 series is files moved smwhere;
+
+200 here you go success;
+
+postman: is software: and curl;
+https://www.youtube.com/watch?v=eYQyqf-DtCQ
+Look at it;
+Shows the workig in raw form;
+
+postman get:
+
+
+Get vs Post:
+https://www.youtube.com/watch?v=UObINRj2EGY
+
+Rohit Postman:
+https://www.toolsqa.com/postman/post-request-in-postman/
+
+Ask Arun V for DSA Videos:
+He does hav videos from previous batches;
+Then start solving CodeKata Questions and then Questions of Arun's
+Repository;
+
+Math array and Strings Questions to be solved;
+upfront;
+
+
+Ask Arun about the Mentor Details As well;
+
+
+
+

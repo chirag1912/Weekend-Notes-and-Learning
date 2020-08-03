@@ -1,0 +1,21 @@
+Hey Note for the pointers in general:
+
+Type of questionns to solve as of Now:
+As many questions are solved for the DS,
+More you will get comfortable with the type of questions coming in the exam;
+
+Well, in most of the exams you can switch the tabs they dont come to know much about it;(-;
+
+
+
+YOu can always take up pointers;
+
+without using the loop to traverse see firstly if you do the operations using just one loop;
+
+to compare, or to swap, can be done in the same loop;
+
+
+Also, this can be done;
+by i=0 and j decrementing wih j=size-1;
+When is the need to go for 2 loops then?
+

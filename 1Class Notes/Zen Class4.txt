@@ -1,0 +1,308 @@
+Browser has: View SRc Debugger, Response View;
+Refresh to start Debugging in bpth Firefox and Chrome;
+
+Response view is where you ge to see how the page will look like in different devices;
+
+Is head body and HTML tag necessary in html??
+
+Why someone has to introduce Header tag really?
+Header, nav were intro in HTML% onwards;
+
+<a></a> is tag name;
+They have attributes to them;
+eg anchor tag has href property;
+
+Global: Class, ID, Hidden;
+Other: attributes  as well check with attribute which tags imoplement them.
+
+
+Href Links load one by one;
+Defer new attribute element in script tag:
+Go load Body and Head of HTML, I willl load the script of JS till then dont worry;
+
+Know atlaest 10-15 attributes;
+
+Use Absolute Path of the JS in Scri[t Tag only;
+Realtive starts: ./
+Absolute ./arun/script.js;
+
+. means current folder;
+
+div and section difference;
+
+Why header Tag in HTML?
+Diff div and section;
+
+heroku git:remote -a yourapp //for heroku to get connected from local to remote;
+
+
+Zen Class 4:
+PASS Post as a service;
+
+JS compares only the values,
+Other languages cannot compare string and numbers;
+
+Mostly in newer languages, they add on functionality to the language;
+
+D Type
+prim;
+Composite or rest: Object all rest;//null and undefined as well;
+
+Java, CPP: Map;
+Here JSON is Map;
+Function is also an object they say;	//they are first class objects;
+
+Can pass a func to a function;
+
+empty Room: null is an object;	//Do chceck against NUll in Java, CPP;
+
+Do check against undefined in JS:
+Vaccum Chamber : Undefined //not a value so not an object;
+
+Share the same sheet: is call by Reference;
+Share the same URL: is call by value;
+
+All the objects in JavaScript are going to be compulsary Copy by Refernce;
+
+Primitive TYpes memory less so will be copy by Value;
+
+BUg Bounty 500;
+Why are Objects copy by reference and Primitive are by COpy by Value;
+
+Using Spraed OPerator can pass by value in Arrays as well;
+
+Google Ads: Reads your cache from browwser there is JS program written by Google to read them;
+
+Local Cache/storage is where passwords are stored;
+
+
+
+Other sites cannot touch Loacal Storage of another Website;
+Loacal Storage VS Cookies?
+
+So, they also store cache in incognito;//Google people;
+
+Even before DOM  we have Window Object;
+
+JS when creating Array:
+It creates an Object internally;
+
+It creates void in Array;
+Creates undefined;
+in Void Spaces;
+
+Also, if passing string it becomes a part of the object as a property of object for that array;
+NO included in the actual length though;
+
+Object.keys(arr)	//Shows all the Object values incl arr properties;
+
+Object.keys(arr).length to get the actual object length;
+
+arr["15"]=999;
+15 string is converted to the index of the array and is not treated as a property;
+
+JS does internal conversion of this number;
+
+So, whenever you add (); that is when you arecalling the function body itself;
+
+arr[4]=fn;//fn stored
+arr[5]=fn()//fn calling arr[5]= undefined in this index;
+
+
+arr[4]();//to print the functions of the array;
+
+arr[4].fn()//see??
+
+console.log(a.ttt)
+Oject is not defined so what to print in console; so undefined;
+consle.log(a.ttt.tt); exception as there is no value of uundefined ttt property;
+
+
+if(a.ttt!=undefined){
+console.log(a.ttt);//then print;
+}
+
+
+try{
+consoole.log(a.ttt);
+console.log(a.ttt.tt);
+}
+catch(ee){
+	console.log(ee);
+}
+will give Typed Error and says a.ttt is undefined;
+
+Stops abruptly in uncaught exception;
+Stops and GIves error gracefully in the Caught Exception;
+
+
+API: 
+App1 Maps--DB of gooogle DataStore;
+
+App needs my data;
+you can do this by Code;
+
+Standard API:
+Given by Companies to be used;
+
+Can use their API to create this stuff; of PDF;
+
+By using Web API: rest Countries Data is what we are accessing by using API;
+
+Method to touch the API, using JS using XML method;
+
+AJAX: w/o reloading the entire page;
+
+
+
+Hey, When needed only Client will ask, dont send anything from Server side;
+
+load enter,
+button submit;
+
+Hey just give me element to refresh just the part of webpage;
+JS has timer to initiate req and then get the data and then it modifies the DOM and gives the data;
+
+No one used;
+
+Used only for JS popup only;
+
+Google used AJAX first time;
+WHen typung anything in search box you will get the data, w/o entering/submitting.
+
+XML not sent now, AJAX now.
+
+Update only that part of div only based on timing and typing;
+
+Synch: Ack =nowledge after sending everytime;
+Value is pretty good;
+
+Asynch: No wait for the person to acknowledge;
+Value is questionable;
+
+Coding World:
+Disk read; asynch with handler;
+Network; 
+ 
+Defer tag of JS is asynch with handler;
+
+AJAJ: really no XML;
+
+every req has true false for asynch and synch thing;
+
+JS: workout101: json101:
+1html; 1 JSON;
+
+Incl JSON in the HTML Page;
+
+So, req, url str,
+
+If false: Synchronous;
+AJAX: True;
+
+Also, with fetch doing;
+
+CORS:
+Cross Origin Resource Get:
+* all access;
+API KEY, only using Password;
+
+Replacing the Browser URL, with the API; will make it to be AJAX API;
+
+Read about CORS;
+
+Is API Provider Side COntrol;
+
+TAsk:
+OPen API;
+CORS;//See;
+AUthentication;
+
+worksheet check and PPT;
+
+Fetch URL is new;
+Request HTTP Stuff is old;
+
+CHcek PPT for chcecking;
+Questions;
+
+RSET and SOAP difference;
+
+
+FileSystem API as well the one we use to open and close file using Command Prompt;
+
+Mostly now, APIs are what we touch using the web APIs;
+
+Replace the actual Array with API;
+
+Using HTTP Request;
+
+From JS we have a timer from whic we can initiate the request;
+
+AJAX is used with JavaScript;
+
+Now all data taken and Back is using JSON;
+
+Not using XML nowadays;
+
+Cricket Score, Weather, and Google Search;
+
+When openeing the URL:
+GET, https://restcountries, true;
+
+If true: Asynchronous;
+Else,
+Synchronous;
+
+JSON Data is requested using the function():
+JSON.parse(this.response);
+
+
+
+NOw:
+Write the HTTP Request:
+To get the data ie use the API way;
+RAther than copy pasting the Array itself to the file;
+
+Creating the HTML request in the JS file:
+
+
+And save the request URL in the url_string;
+
+var req=new XMLHTTPRequest();
+var url_string="https://getcountries.api";
+req.open();
+req.send();
+req.onload=function(){
+}
+
+
+Hey so in console of the Browser(HTML File):
+You have the the Array;
+
+001 ppt Data Types:
+Slides:24,25;
+
+Use TYpeof in all dtatatypes and Check the result;
+
+2nd task:
+XMLHttpRequest;
+
+
+
+Blog Thing of TYpeof:
+Slide: 10;
+Blog about Oject and Internal Representation in JS.
+
+
+Now that API has been created:
+REST api:
+graph.facebook.com/youtube?fields=id,name,likes
+
+
+
+
+
+
+
+ 

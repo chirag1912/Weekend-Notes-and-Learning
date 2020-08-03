@@ -1,0 +1,79 @@
+Node.js is used to wirte the JS program in it.
+
+It is like command line Interface as the GUVI Online Compiler for JavaScript.
+
+What Can Node.js Do?
+Node.js can generate dynamic page content
+Node.js can create, open, read, write, delete, and close files on the server
+Node.js can collect form data
+Node.js can add, delete, modify data in your database
+What is a Node.js File?
+Node.js files contain tasks that will be executed on certain events
+A typical event is someone trying to access a port on the server
+Node.js files must be initiated on the server before having any effect
+Node.js files have extension ".js"
+
+
+
+Http is already a package available in NOde.JS;
+
+So, to access this package,
+
+
+use require in NOde.js to use the module of NOde.js downloaded from NPM.
+
+Well let me tell you,
+Node.js saved using http code can be accessed from node.js command to create a server and access usig chrome: port 8080;
+
+using node, which is installed from node websit.
+
+by writing node ""
+
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
+
+Understanding of code will be later;
+
+
+require is used for npm modules which are downloaded and inuilt in node.js;
+
+Node.js as a Web Server
+The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.
+
+Use the createServer() method to create an HTTP server:
+
+Example
+var http = require('http');
+
+//create a server object:
+http.createServer(function (req, res) {
+  res.write('Hello World!'); //write a response to the client
+  res.end(); //end the response
+}).listen(8080); //the server object listens on port 8080
+
+The function passed into the http.createServer() method, will be executed when someone tries to access the computer on port 8080.
+
+Hey when will this method be called,
+Server is in listening ode always,
+so with this when browser requests 8080 url;
+Theis method is called and inside this the console.log will be printed;
+
+
+
+Add an HTTP Header
+If the response from the HTTP server is supposed to be displayed as HTML, you should include an HTTP header with the correct content type:
+
+Example
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('Hello World!');
+  res.end();
+}).listen(8080);
+The first argument of the res.writeHead() method is the status code, 200 means that all is OK, the second argument is an object containing the response headers.
+
+ 

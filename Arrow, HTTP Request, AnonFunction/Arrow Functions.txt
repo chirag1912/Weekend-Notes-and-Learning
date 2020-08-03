@@ -1,0 +1,8 @@
+Write a function which takes 2 params 
+Operation
+Function 
+
+Based on the params do the operation
+
+Hey all these Ananymous or even normal functions can be conversted to Arrow functions;
+
