@@ -1,0 +1,53 @@
+
+
+Copy by ref and value of obj is only reference;
+
+Spread Syntax:
+does copy by value for the user;
+
+Done with objcet funct and arrays as well;
+
+rest operator used for multiple parameters;
+
+Only last parameter will be spread;
+
+Also, there is dir
+
+Hey, so:
+arguments is inside every function need not pass in the function parameter;
+
+destructuring assignment:
+so, to get indiv elements from the array:
+[a,b,c,d]=[10,20,30,40];
+
+Can be used for objects as well;
+
+Just indiv mem allocations of the Object Arrays can be done using destruc assignment;
+
+destruc can be done to swap the values of arrays or variables;
+
+a=10;b=20;
+[a,b]=[b,a];
+
+node-> global;
+browser-> window is global;
+
+Cannot call func of the object globally;
+
+When calling function from outside that wint print as lexical scope is there;
+
+Call apply us temporary attachment;
+bind intro in ES6;
+
+
+
+Call apply is used to give the outside function the insdie value of an object;
+
+Bind is used as well;
+new object is created;
+
+Read:
+https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+
+
+
