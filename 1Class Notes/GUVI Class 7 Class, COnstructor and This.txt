@@ -1,0 +1,92 @@
+In ES6 we have Class;
+Is just a sugar coating over ES5 Objects;
+
+So, every obj has proto property;
+
+Class Dog{
+    constructor(name){
+    this.name=name
+    }
+
+  method1(){
+    console.log("Hi");
+  }
+}
+  let a= new Dog("arun");
+  a.method1();
+
+
+this is pointing to current Object;
+
+class(is a func)
+member (variable)
+method (inner funct)
+object(create)
+
+
+Must put member variables inside the constructor;
+
+JS runs in lexical env: f1()
+
+class A{
+	f1()
+}
+obj= new A();
+obj.f1();
+
+window.f1();
+
+Hey, this will refer to current Object Value;
+
+class A{
+	constructor(n)
+	{
+		this.name = n
+	}
+	f1() { var name = "dummy";
+	console.log(this.name);console.log(name)}// runs in the lexical scope of obj
+}
+ obj = new A("arun") // {"name":"arun"}
+ obj1 = new A("Prakash") //{"name":"Prakash"}
+
+
+obj.f1()
+obj1.f1()
+
+//Using Function to create Member variable using function way:
+function PartyAnimal() {
+    this.x = 0;
+    this.party = function () {
+        this.x = this.x + 1;
+        console.log("So far "+this.x);
+    }
+}
+
+an = new PartyAnimal();
+
+an.party();
+an.party();
+an.party();
+
+
+instance variable is same as member variable;
+
+static method w/o creating instance
+use classname.methodname();
+
+
+Hey, so in class function;
+hoisting was removed;
+
+
+https://docs.google.com/document/d/1AB04kg6FD9UuJgfW3P9Ml_Ol9tFCNJRVT2mx4jPKK3U/edit
+
+Hey return the complete object it says;
+
+
+toString to be neglected;
+
+Hey,
+So do class things in HW;
+
+Banks will have Account as member variable in class;
