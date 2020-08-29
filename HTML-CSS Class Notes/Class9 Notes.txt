@@ -1,0 +1,124 @@
+A text header, denoted using the <h1>, <h2>, <h3>, <h4>, <h5>, <h6> tags.
+A paragraph, denoted using the <p> tag.
+A horizontal ruler, denoted using the <hr> tag.
+A link, denoted using the <a> (anchor) tag.
+A list, denoted using the <ul> (unordered list), <ol> (ordered list) and <li> (list element) tags.
+An image, denoted using the <img> tag
+A divider, denoted using the <div> tag
+A text span, denoted using the <span> tag
+
+DOM, Boootstrap,HTML,CSS;
+
+is scripting language;
+
+html
+head   title /title /head
+body
+
+header /header
+
+div takes entire region block level
+div /div		//block element
+
+
+Is only text level;
+section /section	//using div can divide sections;
+//is a particular section;
+
+footer /footer
+
+/body
+/html
+
+span,
+p,         special tag:             //has a space above and below;
+div tag;
+
+h1,h2,h3,h4,h5,h6 //has space functionality;
+
+
+
+div vs section discussed;
+span 
+
+
+tr
+td td	//for table data;
+tr
+
+Why we need forms?
+To collect the data from the user;
+
+forms:
+required,
+placeholder,
+
+
+id is primary key;
+
+why do we have id and name as well?
+
+
+
+Name for input only;
+id is for all;
+to do the operations it has to be with id;
+
+<form>
+        <label for="username">Username</label>
+        <input type="text" value="venkat" placeholder="username" name="username" id="username">
+        <br>
+        <label for="user-email">
+            email
+        </label>
+        <input type=" email" required placeholder="abc@mail.com" name="email" id="user-email">
+        <br>
+        <label for="phone">Mobile</label>
+        <input type=" text" required placeholder="mobile number" name="mobile" id="phone">
+        <br>
+        <input type="submit" value="click">
+    </form>
+
+
+name can be used in case of grouping elements;
+The id cannot be uded for grouping;
+
+label for is used for referencing to the input vaue of the attribute;
+
+selected and disabled;
+
+For selecting a state; value is used from dropdown;
+
+
+
+So, in URL name goes not the id of the form;
+
+without name the value won't be passed to the backend, will be there itself;
+Need name with attr of form to pass the values;
+
+Why we need name?? use to submit the form;
+
+<form action="sample.html" onsubmit="sendData()">
+        <input type="text" name="name" id="name" placeholder="first name" required>
+        <br>
+        <input type="email" id="email" name="email" placeholder="email" required>
+        <br>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <script>
+        function sendData() {
+            alert('Thank you..!!');
+        }
+    </script>
+
+//execute this;
+
+
+kahoot.it 
+netlify to show the output;
+
+
+
+
+

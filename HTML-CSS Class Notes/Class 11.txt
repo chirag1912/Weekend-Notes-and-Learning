@@ -1,0 +1,146 @@
+Class 11. 22/08/2020
+
+box: padding, margin, border;
+also, position property;
+//Practice these a lot;
+
+Resume, and Poster to be completed;
+
+to aceess the child elemnt and keep prop same as parent:
+
+Can use to inherit using
+.div #my-id{
+color:inherit;
+font:inherit;
+}
+
+/dashed boredr, grayscale;
+border-radius :rounded borders;
+filter: grayscale;
+//to make the image lack-white;
+
+img{
+  border-radius: 25px;
+   filter: grayscale(100%);
+  border : 3px dash red;   
+}
+
+
+WebKata Link:
+https://www.guvi.in/webkata
+
+.scroll{
+ overflow:scroll, 
+ height=180px; 
+ width=40%;
+}
+hidden, //extra content oout of bordeers willl be blocked;
+visible, //all visible with width in effect, height gets distorted;//same as normal;
+auto;	//auto scroll when content is added;
+
+
+.box{
+box-shadow: red 5px 10px;
+}	//shadow from top comes to bottom, see why??
+
+clip: uses the dimensions to get the
+
+px , point, inches
+72 point=1 inch;
+92 px=1inch;
+
+relative:
+em= 16px;
+rem= 
+vh= 1% of viewport height;
+vw
+vmin
+vmax
+%=
+
+2 unit types
+Absolute
+cm & mm
+in - 1 in = 96 px = (2 to 3cm)
+px - 1px = 1/96th of 1 in 16 px is default font size of the words in HTML;
+pt - 1pt = 1/72 of 1in
+Relative
+em - 16px * 2 = 32px	
+rem - relative to font-size of root
+vh - 1% of height of viewport
+vw - 1% of width of viewport
+vmin - 1% of viewport smaller dimension
+vmax - 1% of viewport larger dimension
+% - relative to parent element
+
+why use Vmin and Vmax;
+
+vh, vw, vmin, vmax for the box;
+
+---------------------------------------------
+clip:rect(10px,20px,60px,100px);
+clip: auto will display complete image;
+----------------------------------------------
+
+google font can be used for fint styling;
+you get import: used under style;
+link inside the css fint family;
+
+All CDN to paste in Style tag will be a link tag(CDN);
+
+Include the font library CDN in Style link tag;
+font awesome: For Icons;
+ave a class mentioned by def fior styling;
+
+Link:https://fontawesome.com/
+Inside the icons example will have the size for those icons;
+
+
+------------------------------------------------
+Icons hve this attribute Tag of: <i></i> with classname of awesoe font mentioned in there;
+--------------------------------------------------
+media Queries to make the Page Responsive:
+@media(min-width) and (max-width:)
+{
+	.myclass{
+	bgcolor:green;
+	}
+}	//will show media of bgcolor only when width is bw the min and max width;
+
+By adding media page is responsive now;
+
+-----------------------------------------------------------
+
+why metaViewPort is there?
+meta just informs the browser by writing viewport;
+That yes the page is responsive;
+
+
+
+--------------------------------------------------
+Add the class name as setting the font for the para or the div element;
+------------------------------ 
+What is box sizing used for 	//box-sizing: border-boxing; the border of the div element willl be calulated using the padding of the element as well.
+and why * in CSS written?
+
+
+is to be used for all the elemnts so, write in * element of the css property;
+box-sizing: border-box;   //border-box will include padding of the element if mentioned;
+---------------------------------------------------
+
+so wen writong width 50perc it will allow 2 boxes side by side; and def padding will be removed;
+----------------------------------------------------
+
+div: slant to be used;
+image can be used as well for eavch div para written;
+
+value:transform property;
+transform property to be used;
+
+quotient property, float using this assignment;
+-------------------------------------------------------
+
+
+
+
+

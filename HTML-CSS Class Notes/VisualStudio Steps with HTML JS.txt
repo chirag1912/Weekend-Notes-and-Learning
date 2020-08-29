@@ -1,0 +1,30 @@
+To Open VStudio:
+
+CMD: code enter: will open VStudio Code;
+
+cd to the work folder of the directory
+code . //will open in this current directory;
+
+ctrl+shift+p	//like powershell for console in V Studio;
+
+Open the integrated Terminal//togal integrated Terminal;
+
+
+
+mkdir to crate a new older in the windows;
+
+writing code . after going in current dir from cmd will create this folder in VStudio;
+
+With Emmet Intellisense for HTML increases;
+
+ol>li //will gen ordered list with list Item;
+
+ul>li*5 //5 items;
+
+With tab insert all these elements;
+
+div.class>h1+p+h2
+
+MOre about VStudio Shortcuts:
+https://www.youtube.com/watch?v=bJiIzz8mFMs
+

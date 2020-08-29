@@ -1,0 +1,156 @@
+Class12
+Bootstrap:
+
+Layout and Grid System:
+Bootsrap uses:
+Grid System Scenerio:
+
+BootStrap: 12 grids;
+
+Semantic-UI: has 16 grids makes thing's complex;
+
+Hey,
+bootsrap already ha this library of classes;
+Need to remember those classes names;
+
+Multiple Bootsrap type libraries:
+Bulma,
+Foundation CSS,
+MDB,
+Semantic UI;
+
+no style tag needed when importing the link tag of css of booystrap;
+
+container class is primary layout for bootstrap;
+it has @media for resp design using Bootstrap;
+they use the grid system;
+
+of their own;
+and have media quesry in their container class;
+
+Botsrap earlier used 16 colums;
+NOw they use 12 columns;
+
+.col-1...12;
+.col-sm-1...12;
+.col-l-1...12;
+.col-xl-1...12;
+
+<div class="conatiner my-conatiner">
+
+<div class="row">
+	<div class="col-1"></div>
+	...	
+	...
+</div>
+</div>
+
+hierarchy:
+container
+col	//adjusts all colums those added;
+col-1	//accrding to class "col-1" size;
+
+max-width: max pixel of the screen is used to define the size;
+---------------------------------------------
+using container not fluid here;
+-------------------------------------
+
+HOw is nesting taking place inside the column row and colums written:
+
+col-6
+<row>
+<class="col">	//is dynamic or only 6 must get adjusted;
+
+
+------
+
+"col-3" for space;
+class="col-6" for mid design of forum;
+will have class=form-group
+
+class="form-group"
+<label for="FName"></label>
+
+LName;
+Email;
+text-area for long text in address;
+DropDown: select tag is there no input tag;
+
+<select name="state" id="state">
+	<option value="TN">TNadu</option>
+....
+	<option value="Mh">Maharashtra</option>
+
+ </select>
+
+class=custom-select is inside the select tag;
+of bootstrap;
+custom-select makes the darwing elongated for the attributes used;
+
+
+custom-select;	//elongate attr of select to the column level;
+form-group;
+col-3;	//space of div left		
+col-6;	//space used to create the form in this div of size col-6
+col-3 at end;
+
+also bring it inside the div element;
+for button: class=text-center //brings text and button to the centre; this is div level tag for the button;
+
+"btn-outline-primary" 
+"btn-block"	//for blocking the button to entire row;
+
+
+btn-block entire div sie allocated is taken of the row.
+----------------------------------------------------
+Grouping in Bootstrap:
+Grouping the elements is writing a new row inside col and writing col in this row;
+-----------------------------------------------
+
+After the form Creation:
+NOw, there is justify- content between, around;
+
+justify-content-start in the row tab;
+will write the elemnts in the start of the row;
+
+justify-content-between;
+in-between there will be space;
+
+justify-content-end;
+-----------------------------------------------
+
+offset-3 will just add a div as if the col-3 is declared;
+-----------------------------------------------------------
+
+img-fluid is the class to make it responsive;
+-------------------------------------------------
+colors tye you get: bg-info,
+bg-warning type bacground colours;
+--------------------------------------------
+wat happens with text-justify in css?
+
+Hey when shfiting the text to small devices:
+Can write: class="col-sm-12 col-md-8 col-lg-6 col-xl-4"
+Only 1 para iat a tie in the entire width will be there;
+
+if the normal col calss is used then all the contetnt is shown in the screen at a time;
+
+More consecutive paras will come when screen is big;
+When small only one column will be visible n the entire width of the screen;
+
+----------------------------------------------------
+.mt-5 is class of bootsrap for margin top=5px;
+thing;
+
+----------------------------------------------------
+code speel checker;
+live server extension;
+
+prettier to make code clean;
+JS ES6;
+color-highlight;
+
+-----------------------------------------
+fluid container and stuff is in this session;
+and non fluid is in here;
+

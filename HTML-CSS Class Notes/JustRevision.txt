@@ -1,0 +1,69 @@
+Just Revision HTML:
+head tab to get elemnt complete;
+
+ctrl+u: to get HTML in browser;
+
+
+1 m is margin in HTML-CSS spacing.
+
+span img and link ar inline;
+Rest are block level elemnts;
+
+<strong> will take on bold tags;
+<em> takes on on: italics;
+
+<a href="" target="_blank"> </a>	//to open in new tab;
+
+Tag attributes give info of the tags;
+
+tag, attributes of tag;	//tag-attributes;
+
+pading-start: pushes the list to right, with padding on left side;
+
+label, input type (name)
+for forms;
+
+name in Cmale CAse like functions fo rthat input type of the form;
+use div to separate them into lines as inp ag is inline thing;
+
+inp type email adds validation to form using html5;
+textarea tag for message; no inp type;
+select, <option> for drpdown;
+
+inp type: text, number, date, submit;
+select, option;
+textarea
+img src=; alt="";
+
+height in img is auto, set the width though;
+
+Extra Quotes:
+blockquote;
+abbr when hovered over will show the full form of th thing;
+cite;
+
+Semantic Tags:
+
+small is used for contents: as subpara;
+
+header,		//id=main-header
+section--article, article--/section
+<article>
+<small>for sub hedaing;
+<p> for cotent of the blog;
+
+//fine if p is more than, <small> as small is mostly written by content;
+
+aside-> heading (h3)-> ul with anchor;
+
+footer;	//id=main-footer
+
+padding to any tag will gove a box structure around the text;
+with backgrnd for that text to the length of padding goven;
+or by default which is there for the text;
+
+
+
+
+
+

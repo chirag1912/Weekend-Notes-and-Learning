@@ -1,0 +1,57 @@
+var div = document.createElement('div');
+
+div.innerHTML= 'Hello';
+document.body.append(div);
+
+//If in this div i wish to add the class using DOM, this class defines the bgColor of the element Created: div;
+
+---------------------------------------
+
+<input type='text' id="text" name="first-name" placeholder="Name' class="form-control" value="venkat">
+var value=document.getElementById('text').value;
+console.log(value);
+
+------------------------------------------
+
+var container= document.craeteElement('div');
+container.setAttribute('class','container my-container');
+
+var fname= document.craeteElement('input');
+fname.setAttribute('type','text');	//set all attr of fname here of type input-form;
+fname.setAttribute('id','fname');
+fname.setAttribute('name','fname');
+fname.setAttribute('class','form-control');
+fname.setAttribute('value','chirag!');
+fname.setAttribute('placeholder','Your NAme');
+
+how to print this, fname var created??
+container.appendChild(firstName);
+
+If the form-control elements are really same, one can write down functions;
+
+function createElement(type,name,placeholder){
+var ele= document.craeteElement('input');
+ele.setAttribute('type','text');	//set all attr of fname here of type input-form;
+ele.setAttribute('id','fname');
+ele.setAttribute('name','fname');
+ele.setAttribute('class','form-control');
+ele.setAttribute('value','chirag!');
+ele.setAttribute('placeholder','Your NAme');
+return ele;
+}
+
+container.appendChild(createElement("text","fname","Your FName goes here!"));
+OR
+var lname=createElement("text","fname","Your FName goes here!");
+container.appendChild(lname);	//Has return Type; gives return type in form of input type element defined;
+
+container.append(fname,lname,email);	//No return type
+
+//Why not getting error for container var not defined?
+Must not be getting errors that's why in DOM;
+
+
+
+-------------------------------------------------
+fname.innerHTML= 'Hello';
+document.body.append(fname);

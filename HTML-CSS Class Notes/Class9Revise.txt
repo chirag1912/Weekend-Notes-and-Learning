@@ -1,0 +1,164 @@
+Revision of HTML Class9:
+section , ->*div;
+
+each element is with id;
+
+span, p, div tags;
+h1 to h6 tags;
+--------------------------------------------------------------
+div is kind of page splitting of webpage;
+section is used very less in zoom site;
+
+div vs span:
+div will take entire row of the page;
+span only that region where text is stored;
+
+section->div(entire row (used maximum))/span(Only text where written this much pf space is taken.)
+
+Multiple groups can use section in page;
+
+IMP:
+DIv and section both can be used to group;
+Section can be used when using in particular region: header/footer;
+
+inside div use: <p> tags and <div> tags;
+
+-------------------------------------------------------------------------
+<table>  will have <thead> , <tbody> tags;
+
+IMP:
+<table border="1">
+
+<ol> <li> 		//<ol type="">
+<ul> <li>		<ul style="list-style-type: circle;">
+------------------------------------------------------------------------
+
+forms in html:
+
+<form>
+	<input type="text">
+	<input type="password">
+	<input type="submit"   value="click">
+</form>
+
+//date and time type also;
+----------------------------------------------------------------------
+In form:
+type
+placeholder	//feeble text in input type;
+value	
+required
+name	//used for collecting values in form;
+id	//unique;
+
+same name in inp field will unselect the first name value;
+
+name is like var in the field text of the form;
+------------------------------------------------------------------------
+ label for: shows his tag refers to: abc;
+
+<label for:"usrname"> Username </label>	//Text for input field write here;
+<input type="text" value="" name="username" id="usrname">
+--------------------------------------------------------------------------
+
+label for use in rbutton as well;
+
+Hey, so:Dropdown:
+
+<select name="select" id="select">		<select>
+												<option val="TN">TNadu</option>
+	<option> select state</option>	</select>
+	<option value="TN"> Tamil Nadu</option>
+</select>
+-----------------------------------------------------------------------------
+
+<select>			//In select optgroup label//for heading in select dropdown;			//
+<optgroup label="tamil Nadu">
+<option value="SLM">Salem</option>
+
+------------------------------------------------------------------------------
+autofocus added in any input type of the form input;
+//form cursor on refresh will satrt there;
+autocomplete="off" will not allow browser to prefill previous data;
+//can be set on r off in the form;
+------------------------------------------------------------------------
+
+
+Submit Button:
+<input type="submit" value="submit">
+
+In from tags: if rbutton, submit if not input Field;
+name of them will come by value, where the value is fixed at time of writing code;
+
+So instead of input type="submit"
+can do using button tag;	//can addd small image using button tag;
+<button></button>
+//button by default have submit behaviour;
+<button type="reset">Reset button</button>
+for other types: do using: type="reset" value="reset";
+-----------------------------------------------------------------------
+ven submit input type does have Name vale comes as submit in get method when submiting the form;
+------------------------------------------------------------------------
+<form method="GET/POST">
+
+
+
+
+write required in input type of form,
+On subitting will say:"This field is required";
+
+function func1(){
+	alert("Thank You..!!");
+}
+
+<input type="Submit" onclick="funct1">	//onclick will run before req values as well;
+
+<form onsubmit="func1()">	//func1() call onsubmit;
+
+<script>		//Inside body
+	function func1(){
+	alert("Thank You!")
+	}
+</script>
+
+Can we use: <form action="func1">?
+
+So, onaction form can be used to jump to diff HTML cannot be used to JS functions;	//only mention .html pages only no other func supported;
+Use onsubmit only;
+Supports URL onAction of form as well;
+may support .js pages as well;
+-----------------------------------------------------------------------
+Use of:
+POST field just sends the data to backend;
+
+Method get also pushes but publishes inthe URL.
+---------------------------------------------------------------------------	
+Hey, anything written in script tag will be compied if written inside the HTML doc;
+
+
+Ok, anything on Action="URL/HTML Page/JS Page"will happen after page completes;
+onsubmit in form will do after completing 
+func1(){
+alert("Thank you..!!")
+}
+
+script written directly will load with when our index.html main HTML loads;
+
+-------------------------------------------------------------------
+onsubmit how this works??
+
+name of our submit button is submit thats why?
+what if only button type or reset;
+onAction to load only the pages? right?
+---------------------------------------------------------------------
+onclick of button submit different tan onsubmit used in form;
+
+-----------------------------------------------------------------------
+why not write Doctype HTML?
+------------------------------------
+Netlify:
+ON writing index.html will show load the contents and show te putput by generating an URL;
+
+index.html is IMP to h=gen the output;
+every folder of Vstudio must have only 1 HTML.index file;
+------------------------------------------------------------------------------------

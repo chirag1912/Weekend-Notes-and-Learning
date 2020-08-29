@@ -1,0 +1,190 @@
+inline style: inside the attribute;
+
+style to write in head of html;
+called internal css;
+
+h2{}
+p{
+font-size:larger;
+background-color:#red;
+}
+
+then external css;
+
+<link rel="stylesheet" href:"style.css">
+
+link relation: is stylesheet;
+
+body tag will not supcede the p tag;
+anyway you write;
+
+div for all div, then class will suprsede;
+div<class<id;	//all the styles will be applied;
+
+can have multiple classes for same attr but id inly one;
+
+<div class="my-font" id= "id1">  </div>
+
+inline>id>class>attribute>internal>external;
+if !important written will override all;
+-----------------------------------------------------------------------------------
+VStudio Code defines: doctype HTML;
+
+margin space arnd element;
+border is the color of border;
+padding space from text to border;
+
+margin: Top right bottom left;
+
+border is there by default for input element;
+
+----------------------------------------------------------------------------------
+para and div both are block level;
+only span is inline; text level;
+
+<style>
+p,div{
+display: inline
+}
+
+style, style,stylesheet, href: ext.css;
+--------------------------------------------------------------------------
+static is normal;
+.class1{
+position:relative;
+top:0px;
+}	//no space between parent and child div;
+
+<div>
+<div class="class1">
+
+div is realtive to previous elemnt if written;
+------------------------------------------------------------------------------
+absolute: if written w/o parent being relative body is the parent;
+
+absolute takes child outside the parent and makes body as parent;
+parent:relative //will make parent div as the parent of the child div;
+-------------------------------------
+position:fixed 
+parent always: is body;
+-------------------------------------------------------------------------------
+.sticky{
+position:sticky;	-webkit-sticky;
+}	//the attr will remain sticked as the scroller moves in the browser;
+must not be indside any parent div element;
+---------------------------------------------------------------------------------
+.gradient{
+background: linear-gradient(-90degrees, red,green,blue,yellow,orange,pink,green);
+}
+
+linear-gradient to use for design;
+linear gradient not supported by all: so use website: to check:
+
+table tag and postion property;
+-----------------------------------------------------------------------------------------
+
+Revision of CSS Class:
+Everything has to be in the style="bgcolor: blue; font-size:20px;" double quotes to set the css style in the element;	//in inline CSS;
+
+<style> tag if writing an internal css;	//inside head tag only;
+
+link:css click in Studio;
+link rel="stylesheet" href:'style.css'
+
+---------------------------------------------------------------------------
+tag name as selector: to modify the property of the tag element and,
+use it to modify the CSS properties;
+
+id> class>div element  if inline>internal>external;
+
+space give class name
+<div class="class1 class2" id="id1">
+
+background-image: url("");
+
+div: blockk level;
+span: inlne level;
+
+in CSS:
+div{
+display: inline-block;	//some space in element;
+}      
+
+position prop used: static;
+
+.static{
+position: static;
+top:20px;
+letft:50px;
+}
+--------------------------------------------------------
+.relative{
+position:relative;
+top:20px;
+left:50px;
+}		//any child even if made rel will follow the top left margins;
+
+parent element text written will come down 20 px from top and
+50px from left from parent;
+
+if =0 will come down to the parent written text;
+//is relative to the parent element;
+
+if written outside the relative will be wrt to the previous element jsut written before this tag;
+---------------------------------------------------------
+if position: absolute	//parent will be body always;
+
+by using absolute:
+by adding top and left the absolute thing is wroking;
+wrt the body	//if written
+ or wrt the parent div;	//if not written;
+
+also, parent has to be relative if top, left written;
+else, if top, left not written parent can be blank as well;
+
+top, left properties define the absolute tag of CSS;
+abs+t+left: will come out;   if parent not relative;
+abs alone: wont come out wrt parent only;
+
+relative only ill be moving; wrt previous or parent class;
+absoloute wil take child out of parent if parent is nit the relative one;
+
+----------------------
+static cannot move;
+rela can move wrt parent;
+absolute ele can move wrt body on def top,left if parent is not relative;
+if parent rel will mive acc to parent position;
+
+
+----------------------------------------------------------
+
+bottom-padding:200 vh;
+for scroller;
+
+All work with child element apart from sticky;
+sticky, absolute, relative, fixed;
+relative cannot come out is iteself relative;
+//all need top and left thing in their cs style;
+---------------------------------------------------------------
+
+absolute will bcome out of prent wif parent is not reative;
+
+fixed will come out of the parent and will be fixed;
+if parent is not relative;
+
+sticky is out if parent is not relative;
+also, canniot write sticky for child elements of div;
+
+---------------------------------------------------------------------------
+
+background: linear-gradient(90deg,red,green,yellow,blue); 
+
+Use:
+border radius for circle border;
+Range element of css can be usded;
+line
+Can use image icons for resume;
+use position prop or table of HTML to place the content;
+
+
+

@@ -1,0 +1,5 @@
+
+16px is default siz of the text;
+in HTML Page;
+
+font-weight: for making bold;
